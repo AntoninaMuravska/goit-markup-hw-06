@@ -949,7 +949,7 @@ html {
 }
 
 .form-input:hover + .form-icon,
-.form-field:focus-within > .form-icon {
+.comment-field:focus-within > .form-icon {
   color: var(--accent-color);
 }
 
@@ -986,6 +986,10 @@ html {
 
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+/* .comment::placeholder {
+  color: rgba(117, 117, 117, 0.5);
+} */
 
 /* Form checkbox */
 .checkbox-field {
