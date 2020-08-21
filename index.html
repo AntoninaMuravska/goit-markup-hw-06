@@ -662,60 +662,57 @@
           <b class="form-call-to-action"
             >Оставьте свои данные, мы вам перезвоним</b
           >
-          <div class="form-field">
-            <label for="name" class="form-label">Имя</label>
-            <input class="form-input" type="text" name="name" id="name" />
-          </div>
 
-          <div class="form-field">
-            <label for="tel">Телефон</label>
-            <input type="tel" name="tel" id="tel" />
-          </div>
+          <label class="form-field">
+            <span class="form-label">Имя</span>
+            <input class="form-input" type="text" name="name" />
+            <svg class="form-icon">
+              <use href="./images/sprite.svg#icon-person"></use>
+            </svg>
+          </label>
 
-          <div class="form-field">
-            <label for="mail">Почта</label>
-            <input type="email" name="mail" id="mail" />
-          </div>
+          <label class="form-field">
+            <span class="form-label">Телефон</span>
+            <input class="form-input" type="tel" name="tel" /><svg
+              class="form-icon"
+            >
+              <use href="./images/sprite.svg#icon-tel"></use></svg
+          ></label>
 
-          <div class="form-field">
-            <label for="comment">Комментарий</label>
+          <label class="form-field">
+            <span class="form-label">Почта</span>
+            <input class="form-input" type="email" name="mail" /><svg
+              class="form-icon"
+            >
+              <use href="./images/sprite.svg#icon-mail"></use></svg
+          ></label>
+
+          <label class="form-field"
+            ><span class="form-label">Комментарий</span>
             <textarea
               class="comment"
               name="comment"
-              id="comment"
               placeholder="Введите текст"
-              cols="30"
-              rows="10"
             ></textarea>
-          </div>
+          </label>
 
-          <div class="form-field">
+          <label class="checkbox-field">
             <input
+              class="input-checkbox"
               type="checkbox"
               name="agreement"
               value="agreement"
-              id="agreement"
-            />
-            <label for="agreement"
+            /><span class="checkbox-icon"></span>
+            <span class="checkbox-label"
               >Соглашаюсь с рассылкой и принимаю
-              <a href="">Условия договора</a></label
-            >
-          </div>
+              <a class="checkbox-link" href="">Условия договора</a>
+            </span>
+          </label>
 
           <button type="submit" class="btn form-btn">Отправить</button>
         </form>
       </div>
     </div>
-
-    <!-- Оставьте свои данные, мы вам перезвоним -->
-
-    <!-- Вводим имя -->
-
-    <!-- Вводим телефон -->
-
-    <!-- Вводим почту -->
-
-    <!-- Комментарий -->
 
     <script src="./js/modal.js"></script>
   </body>
